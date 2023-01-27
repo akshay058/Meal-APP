@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  width: 100%;
+  /* background-color: #d1ced4; */
+  background-image: url("meal.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* color: rgb(130, 93, 63); */
+}
+
+/* header heading section */
+#heading {
+  margin-top: 100px;
+}
+
+/* header navbar */
+#nav {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+/* header search bar section */
+#search-bar {
+  max-width: 600px;
+}
+
+#search-bar input {
+  height: 50px;
+  border-radius: 50px;
+}
+
+/* meal card */
+#card {
+  background-color: #61472b;
+  padding: 30px;
+  color: rgb(245, 250, 245);
+  box-shadow: rgba(229, 65, 65, 0.35) 0px 5px 15px;
+}
+
+#card img {
+  border-radius: 50%;
+}
+
+/* meal details container */
+#meal-details {
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #e9f6ca;
+}
+#meal-header {
+  width: 70%;
+  margin: auto;
+}
+#meal-thumbail img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+#details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+}
+#meal-instruction {
+  margin: auto;
+  text-align: center;
+}
+
+/* favourites offcanvus */
+#favourites-body {
+  background-color: #212529;
+}
